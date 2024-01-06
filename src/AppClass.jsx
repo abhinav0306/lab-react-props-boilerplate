@@ -5,7 +5,7 @@ import elephant from "./images/elephant.jpeg";
 export default class AppClass extends Component{
   // code here
   render(){
-    this.data=this.imageData()
+    this.data=this.props.props;
     let galStyle={
       display:"grid",
       gridTemplateColumns:"repeat(2,1fr)",
